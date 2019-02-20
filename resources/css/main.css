@@ -3,7 +3,7 @@
 /*---------------------------------------*/
 
 #product-overview {
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0)), url(img/start.jpeg);
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0)), url(img/home.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
