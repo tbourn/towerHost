@@ -1,0 +1,139 @@
+/*---------------------------------------*/
+/* PRODUCT OVERVIEW */
+/*---------------------------------------*/
+
+#product-overview {
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0)), url(img/start.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  letter-spacing: 5px;
+}
+
+#product-overview h1 {
+  margin-top: 80px;
+  color: rgb(247, 248, 250);
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, 50%);
+}
+
+/*---------------------------------------*/
+/* PLANS */
+/*---------------------------------------*/
+
+#plans {
+  background: rgb(237, 238, 240);
+  padding-bottom: 80px;
+  padding-top: 4px;
+}
+
+.section-title {
+  color: rgb(2, 184, 117);
+  text-align: center;
+}
+
+.section-title h1 {
+  margin: 0;
+}
+
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.plan {
+  background-color: #6ace26;
+  color: #FFF;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.plan__recommended {
+  background: #19b84c;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.plan__annotation {
+  background: rgb(230, 133, 35);
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+  border-radius: 8px;
+}
+
+.plan__title {
+  color: #0e4f1f;
+}
+
+.plan__price {
+  color: rgb(133, 133, 133);
+}
+
+.plan__recommended .plan__title {
+  color: rgb(247, 248, 250);
+}
+
+.plan__recommended .plan__price {
+  color: #0e4f1f;
+}
+
+.plan__features {
+  list-style: none;
+}
+
+  .plan__features li {
+    margin: 8px 0;
+  }
+
+/*---------------------------------------*/
+/* REASONS */
+/*---------------------------------------*/
+
+#reasons {
+  background: rgb(81, 129, 184);
+  padding: 16px;
+}
+
+#reasons > .section-title {
+  color: #FFF;
+  margin: 32px;
+}
+
+.reasons__list {
+  list-style: none;
+  text-align: center;
+}
+
+.reason {
+  display: inline-block;
+  width: 30%;
+}
+
+.reason__description {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFF;
+}
+
+.reason__img {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+}
