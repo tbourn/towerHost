@@ -86,8 +86,8 @@ h2, h3 {
 }
 
 .main-header__brand {
-  color: rgb(42, 88, 133);
-  font-weight: -400;
+  color: #FFF;
+  font-weight: 400;
   font-size: 205%;
   transition: padding .5s;
 }

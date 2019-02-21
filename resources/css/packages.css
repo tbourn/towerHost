@@ -4,6 +4,7 @@
 
 .background {
   background: url("img/packages.jpeg");
+  filter: grayscale(40%);
   position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +16,7 @@
 }
 
 .package {
-  width: 80%;
+  width: 40%;
   margin: 16px 0;
   border: 4px solid #0e4f1f;
   border-left: none;
