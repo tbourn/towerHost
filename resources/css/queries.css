@@ -1,3 +1,25 @@
+@media (min-width: 40rem) {
+	#product-overview {
+		background-position: 50% 25%;
+	}
+
+	#product-overview h1 {
+		font-size: 4rem;
+	}
+}
+
+@media (min-width: 75rem) {
+}
+@media (min-width: 48rem) {
+}
+@media (min-width: 62rem) {
+}
+@media (min-width: 36rem) {
+}
+@media (min-width: 40rem) {
+}
+
+
 /* Big tablets to 1200px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1280px) {}
 

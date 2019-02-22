@@ -17,12 +17,12 @@
 #product-overview h1 {
   color: rgb(247, 248, 250);
   font-family: 'Anton', sans-serif;
-  font-size: 2.5rem;
+  font-size:2.5rem;
   position: absolute;
   width: 100%;
   top: 50%;
   left: 50%;
-  transform: translate(-30%, 50%);
+  transform: translate(-50%, 50%);
 }
 
 /*---------------------------------------*/
@@ -59,6 +59,18 @@
   display: inline-block;
   width: 30%;
   vertical-align: middle;
+}
+
+.plan__price__old {
+  text-decoration: line-through; 
+}
+
+.plan .plan__price__old {
+  color: rgb(133, 133, 133);
+}
+
+.plan__recommended .plan__price__old {
+  color: #0e4f1f; 
 }
 
 .plan__recommended {
