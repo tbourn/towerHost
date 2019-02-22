@@ -2,6 +2,10 @@
 /* PACKAGES */
 /* --------------------------------------- */
 
+main {
+  padding-top: 6rem;
+}
+
 .background {
   background: url("img/packages.jpeg");
   filter: grayscale(40%);
@@ -11,13 +15,13 @@
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   z-index: -1;
 }
 
 .package {
   width: 40%;
-  margin: 16px 0;
+  margin: 1rem 0;
   border: 4px solid #0e4f1f;
   border-left: none;
   position: relative;
@@ -33,18 +37,18 @@
   text-decoration: none;
   color: inherit;
   display: block;
-  padding: 32px;
+  padding: 2rem;
 }
 
 .package__badge {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  margin: 20px;
-  font-size: 12px;
+  top: .625rem;
+  right: .625rem;
+  margin: 1.25rem;
+  font-size: .75rem;
   color: #FFF;
   background: #FF5454;
-  padding: 8px;
+  padding: .5rem;
 }
 
 .package__subtitle {
@@ -52,16 +56,15 @@
 }
 
 .package__info {
-  padding: 16px;
+  padding: 1rem;
   border: 1px solid #0e4f1f;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #0e4f1f;
   background: #FFF;
 }
 
 #plus {
   background: rgba(214, 255, 220, .95);
-  margin-top: 110px;
 }
 
 #free {
