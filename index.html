@@ -26,9 +26,23 @@
 <body>
     <!-- Content goes in the body-->
     <div class="backdrop"></div>
+    <div class="modal">
+        <h1 class="modal__title">Do you want to continue?</h1>
+        <div class="modal__actions">
+            <a href="get-started.html" class="modal__action">Yes!</a>
+            <button class="modal__action modal__action--negative" type="button">No!</button>
+        </div>
+    </div>
     <header class="main-header">
         <div>
-            <img src="resources/img/towerhost.png" alt="logo">
+            <a href="index.html"><img src="resources/img/towerhost.png" alt="logo"></a> 
+        </div>
+        <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
         </div>
         <div>
             <a href="index.html" class="main-header__brand">towerHost</a>
@@ -47,7 +61,19 @@
             </ul>
         </nav>
     </header>
-
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="packages/index.html">Packages</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="customers/index.html">Customers</a>
+            </li>
+            <li class="mobile-nav__item mobile-nav__item-btn">
+                <a href="start-hosting/index.html">Start Hosting</a>
+            </li>
+        </ul>
+    </nav>
     <main>
         <section id="product-overview">
             <h1>Your smartest choice of hosting</h1>
@@ -302,6 +328,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="resources/js/shared.js"></script>
 </body>
 
 </html>
