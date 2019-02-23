@@ -135,7 +135,6 @@ h2, h3 {
 
 .main-header__brand:active,
 .main-header__brand:hover {
-  /* font-weight: -400; */
   padding: .31rem 0;
   border-bottom: 4px solid #FFF;
   border-top: 4px solid #FFF;
@@ -254,4 +253,16 @@ h2, h3 {
 .main-footer__link a:active,
 .main-footer__link a:hover {
   color: #ccc;
+}
+
+@media (min-width: 64rem) {
+  .package {
+    width: 40%;
+    border: 4px solid #4a76a8;
+  }
+  
+  .package:active,
+  .package:hover {
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, .5);
+  }
 }
