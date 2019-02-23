@@ -16,7 +16,7 @@ body {
   list-style: none;
   position: absolute;
   width: 100%;
-  top: 80%;
+  top: 75%;
   text-align: center;
 }
 
@@ -110,11 +110,11 @@ input[type=submit]:active {
 #product-overview div h1 {
   color: rgb(247, 248, 250);
   font-family: 'Anton', sans-serif;
-  font-size:2.5rem;
+  font-size:2rem;
   text-align: center;
   position: absolute;
   width: 100%;
-  top: 25%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, 50%);
 }
@@ -285,11 +285,12 @@ input[type=submit]:active {
 
 @media (min-width: 36rem) {
 	#product-overview {
-		background-position: 50% 25%;
+    background-position: 50% 25%;
+    top: 35%;
 	}
 
-	#product-overview h1 {
-		font-size: 4rem;
+	#product-overview div h1 {
+		font-size: 3rem;
 	}
 
 	.plan {
@@ -313,12 +314,16 @@ input[type=submit]:active {
 		width: 30%;
 		vertical-align: middle;
 		max-width: 25rem;
-	}
+  }
+  
+  .buttons {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 22.5rem) {
 	#product-overview div h1 {
-		top: 35%;
+		top: 45%;
 	}
 }
 
