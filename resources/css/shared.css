@@ -56,6 +56,10 @@ a {
 
 /* ----- HEADINGS ----- */
 
+h1 {
+  font-size: 1rem;
+}
+
 h2, h3 {
   margin: 1.25rem 0;
 }
@@ -63,12 +67,12 @@ h2, h3 {
 /* ----- BUTTONS ----- */
 
 .button {
-  background-color: #0e4f1f;
+  background-color: #6ace26;
   color: #FFF;
   font: inherit;
   font-weight: bold;
   padding: .5rem;
-  border: 1.5px solid #0e4f1f;
+  border: 1.5px solid #6ace26;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -76,7 +80,7 @@ h2, h3 {
 .button:active,
 .button:hover {
   background-color: #FFF;
-  color: #0e4f1f;
+  color: #6ace26;
 }
 
 .button:focus {
@@ -110,7 +114,7 @@ h2, h3 {
 /*---------------------------------------*/
 
 .main-header {
-  background-image: linear-gradient(to right, rgba(81,129,184,.3), rgba(42, 88, 133,1));
+  background-color: rgb(42, 88, 133);
   padding: .5rem 1rem;
   width: 100%;
   position: fixed;
@@ -131,18 +135,18 @@ h2, h3 {
 
 .main-header__brand:active,
 .main-header__brand:hover {
-  color: rgb(42, 88, 133);
   font-weight: -400;
   padding: .31rem 0;
-  border-bottom: 4px solid rgb(42, 88, 133);
-  border-top: 4px solid rgb(42, 88, 133);
+  border-bottom: 4px solid #FFF;
+  border-top: 4px solid #FFF;
   border-radius: 5px;
 }
 
 /* Main navi */
 
 .main-nav {
-  display: inline-block;
+  /* display: inline-block; */
+  display: none;
   text-align: right;
   width: calc(100% - 267px);
   vertical-align: middle;
@@ -160,7 +164,8 @@ h2, h3 {
 
 .main-nav__item a,
 .mobile-nav__item a {
-  color: rgb(247, 248, 250);
+  color: #FFF;
+  font-weight: bold;
   transition: padding-bottom 1s;
 }
 
@@ -173,7 +178,7 @@ h2, h3 {
 
 .main-nav__item-btn a,
 .mobile-nav__item-btn a {
-  color: rgb(42, 88, 133);
+  color: #FFF;
   border: 0;
   transition: all 1s ease;
   padding: .5rem 1rem;
@@ -200,7 +205,8 @@ h2, h3 {
   z-index: 101;
   top: 0;
   left: 0;
-  background: white;
+  background-image: linear-gradient(to bottom, #1da1f2 0%, #1da1f2 10%, #1da1f2 80%, #1da1f2 100%);
+  opacity: .9;
   width: 80%;
   height: 100vh;
 }
@@ -211,7 +217,7 @@ h2, h3 {
   list-style: none;
   margin: 10% auto;
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .mobile-nav__item {
@@ -222,8 +228,6 @@ h2, h3 {
   font-size: 1.5rem;
 }
 
-/* Sticky navi */
-
 /*---------------------------------------*/
 /* FOOTER */
 /*---------------------------------------*/
@@ -231,7 +235,6 @@ h2, h3 {
 .main-footer {
   background: #333;
   padding: 2rem;
-  margin-top: 3rem;
 }
 
 .main-footer__links {
