@@ -321,3 +321,13 @@ input[type=submit]:active {
 		top: 35%;
 	}
 }
+
+@media (min-width: 1500px) {
+	#product-overview div h1 {
+    top: 45%;
+  }
+
+  .buttons {
+    top: 60%;
+  }
+}

@@ -135,7 +135,7 @@ h2, h3 {
 
 .main-header__brand:active,
 .main-header__brand:hover {
-  font-weight: -400;
+  /* font-weight: -400; */
   padding: .31rem 0;
   border-bottom: 4px solid #FFF;
   border-top: 4px solid #FFF;
