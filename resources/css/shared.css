@@ -129,7 +129,6 @@ h2, h3 {
 .main-header__brand {
   margin-left: 1rem;
   color: #FFF;
-  font-weight: 400;
   font-size: 2rem;
   transition: padding .5s;
 }

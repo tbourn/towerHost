@@ -53,6 +53,8 @@ main {
   font-size: 1.25rem;
   color: #4a76a8;
   background: #FFF;
+  line-height: 1.5;
+  text-shadow: 2px 2px 7px rgb(185, 180, 180);
 }
 
 #plus {

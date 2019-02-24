@@ -49,7 +49,7 @@ html {
 .testimonial__subtitle {
   margin: 0;
   font-size: 1.1rem;
-  color: #ccc;
+  color: #5181b8;
 }
 
 .testimonial__subtitle a {
@@ -64,6 +64,8 @@ html {
 
 .testimonial__text {
   margin: .2rem;
+  font-style: italic;
+  text-shadow: 2px 2px 7px rgb(185, 180, 180);
 }
 
 @media (min-width: 36rem) {

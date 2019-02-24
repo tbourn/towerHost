@@ -241,15 +241,17 @@ input[type=submit]:active {
   top: 20%;
   left: 30%;
   width: 40%;
-  background: white;
+  background: rgb(81, 129, 184);
   padding: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #2a5885;
+  border-radius: 5px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .modal__title {
   text-align: center;
   margin: 0 0 1rem 0;
+  color: #FFF;
 }
 
 .modal__actions {
@@ -257,19 +259,21 @@ input[type=submit]:active {
 }
 
 .modal__action {
-  border: 1px solid #0e4f1f;
-  background: #0e4f1f;
+  border: 1px solid #6ace26;
+  background: #6ace26;
   text-decoration: none;
   color: white;
   font: inherit;
-  padding: 0.5rem 1rem;
   cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.4rem;
 }
 
 .modal__action:hover,
 .modal__action:active {
-  background: #2ddf5c;
+  background: #FFF;
   border-color: #2ddf5c;
+  color: #2ddf5c;
 }
 
 .modal__action--negative {
@@ -279,8 +283,9 @@ input[type=submit]:active {
 
 .modal__action--negative:hover,
 .modal__action--negative:active {
-  background: #ff5454;
+  background: #FFF;
   border-color: #ff5454;
+  color: #ff5454;
 }
 
 @media (min-width: 22.5rem) {
@@ -298,7 +303,6 @@ input[type=submit]:active {
 @media (min-width: 36rem) {
 	#product-overview {
     background-position: 50% 25%;
-    /* top: 35%; */
 	}
 
 	#product-overview div h1 {
