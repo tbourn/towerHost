@@ -3,7 +3,7 @@
 /*---------------------------------------*/
 
 body {
-  background-color: rgb(237, 238, 240);
+  background-color: rgba(81, 129, 184, 0.26);
 }
 
 /*---------------------------------------*/
@@ -128,7 +128,7 @@ input[type=submit]:active {
 /*---------------------------------------*/
 
 #plans {
-  background: rgb(237, 238, 240);
+  background: rgba(81, 129, 184, 0.26);
   padding-bottom: 4rem;
   padding-top: .4rem;
 }

@@ -34,7 +34,7 @@
         </div>
         <div>
             <button class="toggle-button mobile-nav-icon">
-                    <ion-icon id="onoff" name="menu"></ion-icon>
+                <ion-icon id="onoff" name="menu"></ion-icon>
             </button>
         </div>
         <div>
@@ -47,9 +47,6 @@
                 </li>
                 <li class="main-nav__item">
                     <a href="customers.html">Customers</a>
-                </li>
-                <li class="main-nav__item main-nav__item-btn">
-                    <a href="get-started.html">Get Started</a>
                 </li>
             </ul>
         </nav>
@@ -65,38 +62,31 @@
             <li class="mobile-nav__item">
                 <a href="customers.html">Customers</a>
             </li>
-            <li class="mobile-nav__item mobile-nav__item-btn">
-                <a href="get-started.html">Get Started</a>
-            </li>
         </ul>
     </nav>
-    <main>
-        <section class="package" id="plus">
-            <a href="#">
-                <h1 class="package__title">Our PLUS Plan</h1>
-                <h2 class="package__badge">RECOMMENDED</h2>
-                <h2 class="package__subtitle">The most popular choice of our customers.</h2>
-                <p class="package__info">Benefit from increased storage and faster support to ensure that your mission-critical data and applications
-                    are always available!</p>
-            </a>
-        </section>
-        <div class="clearfix"></div>
-        <section class="package" id="premium">
-            <a href="#">
-                <h1 class="package__title">Our PREMIUM Plan</h1>
-                <h2 class="package__subtitle">All your enterprise needs. Instant support, guaranteed uptime. </h2>
-                <p class="package__info">The best solution for small to large enterprises. Because hosting shouldn't be in the way!</p>
-            </a>
-        </section>
-        <div class="clearfix"></div>
-        <section class="package" id="free">
-            <a href="#">
-                <h1 class="package__title">Our FREE Plan</h1>
-                <h2 class="package__subtitle">An extremely solid start into our hosting world.</h2>
-                <p class="package__info">Get started immediately at zero cost!</p>
-            </a>
-        </section>
-    </main>
+    <main class="signup-page">
+      <h1 class="signup-title">Awesome! Let's dive right in!</h1>
+      <form action="index.html" class="signup-form">
+          <label for="title">Title</label>
+          <select id="title">
+              <option value="mr">Mr.</option>
+              <option value="ms">Ms.</option>
+          </select>
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name">
+          <label for="last-name">Last name</label>
+          <input type="text" id="last-name">
+          <label for="email">E-Mail</label>
+          <input type="email" id="email">
+          <label for="password">Password</label>
+          <input type="password" id="password">
+          <input type="checkbox" id="agree-terms">
+          <label for="agree-terms">Agree to
+              <a href="terms.html">Terms &amp; Conditions</a>
+          </label>
+          <button type="submit" class="button">Sign Up</button>
+      </form>
+  </main>
     <div class="clearfix"></div>
     <footer class="main-footer">
         <nav>
@@ -107,22 +97,22 @@
             </ul>
             <ul class="social-links">
                 <li><a href="#">
-                        <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+                      <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
                     </a></li>
                 <li><a href="#">
-                        <ion-icon name="logo-twitter" class="social-icon"></ion-icon>
+                      <ion-icon name="logo-twitter" class="social-icon"></ion-icon>
                     </a></li>
                 <li><a href="#">
-                        <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+                      <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
                     </a></li>
                 <li><a href="#">
-                        <ion-icon name="logo-pinterest" class="social-icon"></ion-icon>
+                      <ion-icon name="logo-pinterest" class="social-icon"></ion-icon>
                     </a></li>
                 <li><a href="#">
-                        <ion-icon name="logo-googleplus" class="social-icon"></ion-icon>
+                      <ion-icon name="logo-googleplus" class="social-icon"></ion-icon>
                     </a></li>
                 <li><a href="#">
-                        <ion-icon name="logo-linkedin" class="social-icon"></ion-icon>
+                      <ion-icon name="logo-linkedin" class="social-icon"></ion-icon>
                     </a></li>
                 <li><a href="#">
                     <ion-icon name="logo-youtube" class="social-icon"></ion-icon>

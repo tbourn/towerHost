@@ -127,6 +127,7 @@ h2, h3 {
 }
 
 .main-header__brand {
+  margin-left: 1rem;
   color: #FFF;
   font-weight: 400;
   font-size: 2rem;
@@ -198,6 +199,17 @@ h2, h3 {
 
 /* Mobile navi */
 
+.mobile-nav-icon {
+  /* float: right; */
+  cursor: pointer;
+  display: block;
+}
+
+.mobile-nav-icon ion-icon[name="menu"] {
+  font-size: 300%;
+  color: #fff;
+}
+
 .mobile-nav {
   display: none;
   position: fixed;
@@ -233,7 +245,7 @@ h2, h3 {
 
 .main-footer {
   background: #333;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .main-footer__links {
@@ -247,12 +259,83 @@ h2, h3 {
 }
 
 .main-footer__link a {
-  color: white;
+  color: #888;
 }
 
 .main-footer__link a:active,
 .main-footer__link a:hover {
   color: #ccc;
+}
+
+.social-links {
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  display: table;
+  margin-top: 1rem;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 1.5rem;
+  font-size: 100%;
+}
+
+.social-links li:nth-child(7) {
+  margin-right: 0;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 100%;
+}
+
+.social-icon {
+  transition: color 0.2s;
+}
+
+ion-icon[name="logo-facebook"]:hover {
+  color: #3b5998;
+}
+
+ion-icon[name="logo-twitter"]:hover {
+  color: #1da1f2;
+}
+
+ion-icon[name="logo-instagram"]:hover {
+  color: #c32aa3;
+}
+
+ion-icon[name="logo-pinterest"]:hover {
+  color: #bd081c;
+}
+
+ion-icon[name="logo-googleplus"]:hover {
+  color: #db4437;
+}
+
+ion-icon[name="logo-linkedin"]:hover {
+  color: #007bb5;
+}
+
+ion-icon[name="logo-youtube"]:hover {
+  color: #ff0000;
+}
+
+.copyright {
+  color: #888;
+  max-width: 100vw;
+  font-size: .8rem;
+  text-align: center;
 }
 
 @media (min-width: 64rem) {

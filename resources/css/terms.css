@@ -1,0 +1,16 @@
+.terms {
+  color: #333;
+  background-color: rgba(81, 129, 184, 0.26);
+  text-align: justify;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+span {
+  color: #4a76a8;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 1rem;
+}
