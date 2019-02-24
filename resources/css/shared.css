@@ -145,7 +145,6 @@ h2, h3 {
 /* Main navi */
 
 .main-nav {
-  /* display: inline-block; */
   display: none;
   text-align: right;
   width: calc(100% - 267px);
@@ -200,7 +199,6 @@ h2, h3 {
 /* Mobile navi */
 
 .mobile-nav-icon {
-  /* float: right; */
   cursor: pointer;
   display: block;
 }
@@ -246,6 +244,7 @@ h2, h3 {
 .main-footer {
   background: #333;
   padding: 1rem;
+  padding-bottom: 0.1rem;
 }
 
 .main-footer__links {
@@ -282,7 +281,7 @@ h2, h3 {
   font-size: 100%;
 }
 
-.social-links li:nth-child(7) {
+.social-links li:last-of-type {
   margin-right: 0;
 }
 
@@ -334,8 +333,9 @@ ion-icon[name="logo-youtube"]:hover {
 .copyright {
   color: #888;
   max-width: 100vw;
-  font-size: .8rem;
+  font-size: .7rem;
   text-align: center;
+  margin-top: 1rem;
 }
 
 @media (min-width: 64rem) {
@@ -347,5 +347,25 @@ ion-icon[name="logo-youtube"]:hover {
   .package:active,
   .package:hover {
     box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, .5);
+  }
+}
+
+@media (min-width: 45rem) {
+  .mobile-nav-icon {
+    display: none;
+  }
+
+  .main-nav {
+    display: inline-block;
+  }
+
+  .social-links li {
+    font-size: 150%;
+  }
+}
+
+@media (min-width: 22.5rem) {
+  .copyright {
+    font-size: .9rem;
   }
 }

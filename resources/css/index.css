@@ -283,14 +283,27 @@ input[type=submit]:active {
   border-color: #ff5454;
 }
 
+@media (min-width: 22.5rem) {
+	#product-overview div h1 {
+		top: 35%;
+	}
+}
+
+@media (min-width: 30rem) {
+	.buttons {
+    font-size: .9rem;
+  }
+}
+
 @media (min-width: 36rem) {
 	#product-overview {
     background-position: 50% 25%;
-    top: 35%;
+    /* top: 35%; */
 	}
 
 	#product-overview div h1 {
-		font-size: 3rem;
+    font-size: 2rem;
+    top: 45%;
 	}
 
 	.plan {
@@ -317,14 +330,8 @@ input[type=submit]:active {
   }
   
   .buttons {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
-}
-
-@media (min-width: 22.5rem) {
-	#product-overview div h1 {
-		top: 45%;
-	}
 }
 
 @media (min-width: 1500px) {

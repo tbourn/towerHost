@@ -32,3 +32,10 @@ toggleButton.addEventListener("click", function() {
     mobileNav.classList.add("open");
     backdrop.classList.add("open");
 });
+
+$(document).ready(function () {
+  /* Scroll on button */
+  $('.btn-ghost').click(function () {
+    $('html, body').animate({ scrollTop: $('.plan__recommended').offset().top }, 1000);
+  });
+});
