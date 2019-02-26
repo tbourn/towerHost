@@ -33,16 +33,20 @@ body {
 .backdrop {
   position: fixed;
   display: none;
+  opacity: 0;
   top: 0;
   left: 0;
   z-index: 100;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, .5);
+  transition: opacity 0.2 linear;
 }
 
 .open {
   display: block !important;
+  opacity: 1 !important;
+  transform: rotateY(0) !important;
 }
 
 /* --------------------------------------- */
@@ -171,6 +175,10 @@ h2, h3 {
   padding-bottom: 1.06rem;
   border-bottom: 4px solid rgb(247, 248, 250);
   border-radius: 5px;
+}
+
+.main-nav__item-btn {
+  animation: animate-button 200ms 3s 5 forwards;
 }
 
 .main-nav__item-btn a,
@@ -368,6 +376,18 @@ ion-icon[name="logo-youtube"]:hover {
 
 @media (min-width: 22.5rem) {
   .copyright {
-    font-size: .9rem;
+    font-size: .8rem;
+  }
+}
+
+@keyframes animate-button {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: rotateZ(10deg);
   }
 }
