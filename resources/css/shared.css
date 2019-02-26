@@ -15,6 +15,13 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  background-color: rgba(81, 129, 184, 0.26);
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto auto;
 }
 
 .clearfix::after {

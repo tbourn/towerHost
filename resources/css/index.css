@@ -1,12 +1,4 @@
 /*---------------------------------------*/
-/* BASIC SETUP */
-/*---------------------------------------*/
-
-body {
-  background-color: rgba(81, 129, 184, 0.26);
-}
-
-/*---------------------------------------*/
 /* BUTTONS */
 /*---------------------------------------*/
 
@@ -110,7 +102,7 @@ input[type=submit]:active {
 #product-overview div h1 {
   color: rgb(247, 248, 250);
   font-family: 'Anton', sans-serif;
-  font-size:2rem;
+  font-size: 2rem;
   text-align: center;
   position: absolute;
   width: 100%;

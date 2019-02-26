@@ -1,12 +1,6 @@
-body {
-    background-color: rgba(81, 129, 184, 0.26);
-}
-
-main {
-    padding-top: 1rem;
-    min-height: calc(100vh - 10.8rem);
-    margin-top: 3.75rem;
-}
+/* --------------------------------------- */
+/* GET-STARTED */
+/* --------------------------------------- */
 
 .signup-title {
     text-align: center;

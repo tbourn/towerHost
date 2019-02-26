@@ -23,6 +23,7 @@ main {
   width: 100vw;
   margin: 1rem 0;
   position: relative;
+  overflow: hidden;
 }
 
 .package a {
@@ -34,13 +35,16 @@ main {
 
 .package__badge {
   position: absolute;
-  top: .625rem;
-  right: -1.625rem;
-  margin: 1.25rem;
+  top: 0.3rem;
+  right: -3.4rem;
+  margin: 0;
   font-size: .75rem;
   color: #FFF;
   background: #f99c08;
   padding: .5rem;
+  transform: rotateZ(45deg) translateX(1rem) translateY(1rem);
+  width:12rem;
+  text-align: center;
 }
 
 .package__subtitle {
