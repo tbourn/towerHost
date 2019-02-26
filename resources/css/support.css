@@ -1,0 +1,13 @@
+/* --------------------------------------- */
+/* SUPPORT */
+/* --------------------------------------- */
+
+section:first-child {
+  padding-top: 4rem;
+  text-align: center;
+  color: #2a5885;
+}
+
+.under-construction img {
+  width: 100vw;
+}
