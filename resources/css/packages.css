@@ -8,7 +8,8 @@ main {
 
 .background {
   background: url("img/packages.jpeg");
-  filter: grayscale(40%);
+  -webkit-filter: grayscale(40%);
+          filter: grayscale(40%);
   position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,7 +43,9 @@ main {
   color: #FFF;
   background: #f99c08;
   padding: .5rem;
-  transform: rotateZ(45deg) translateX(1rem) translateY(1rem);
+  -webkit-transform: rotateZ(45deg) translateX(1rem) translateY(1rem);
+      -ms-transform: rotate(45deg) translateX(1rem) translateY(1rem);
+          transform: rotateZ(45deg) translateX(1rem) translateY(1rem);
   width:12rem;
   text-align: center;
 }
@@ -106,6 +109,7 @@ main {
 
   .package:active,
   .package:hover {
-    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, .5);
+            box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, .5);
   }
 }

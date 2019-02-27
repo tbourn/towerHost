@@ -23,17 +23,15 @@ input[type=submit] {
   padding: 10px 30px;
   font-weight: bold;
   text-decoration: none;
-  -webkit-border-radius: 200px;
-      -moz-border-radius: 200px;
-          border-radius: 200px;
+  border-radius: 200px;
   -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
   -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
-  -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-full {
-  animation: animate-btn-full 200ms 2s 8 alternate;
+  -webkit-animation: animate-btn-full 200ms 2s 8 alternate;
+          animation: animate-btn-full 200ms 2s 8 alternate;
 }
 
 .btn-full:link,
@@ -54,6 +52,9 @@ input[type=submit] {
 .btn-full:active,
 input[type=submit]:hover,
 input[type=submit]:active {
+  background-image: -webkit-gradient(linear, left top, right top, from(#6ace26), color-stop(10%, #96dc66), color-stop(80%, #96dc66), to(#6ace26));
+  background-image: -webkit-linear-gradient(left, #6ace26 0%, #96dc66 10%, #96dc66 80%, #6ace26 100%);
+  background-image: -o-linear-gradient(left, #6ace26 0%, #96dc66 10%, #96dc66 80%, #6ace26 100%);
   background-image: linear-gradient(to right, #6ace26 0%, #96dc66 10%, #96dc66 80%, #6ace26 100%);
   cursor: pointer;
 }
@@ -62,6 +63,9 @@ input[type=submit]:active {
 .btn-ghost:active,
 input[type=submit]:hover,
 input[type=submit]:active {
+  background-image: -webkit-gradient(linear, left top, right top, from(#4a76a8), color-stop(10%, #4a76a8), color-stop(80%, #4a76a8), to(#4a76a8));
+  background-image: -webkit-linear-gradient(left, #4a76a8 0%, #4a76a8 10%, #4a76a8 80%, #4a76a8 100%);
+  background-image: -o-linear-gradient(left, #4a76a8 0%, #4a76a8 10%, #4a76a8 80%, #4a76a8 100%);
   background-image: linear-gradient(to right, #4a76a8 0%, #4a76a8 10%, #4a76a8 80%, #4a76a8 100%);
   cursor: pointer;
 }
@@ -91,6 +95,9 @@ input[type=submit]:active {
 /*---------------------------------------*/
 
 #product-overview {
+  background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0))), url(img/home.jpeg);
+  background-image:-webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0)), url(img/home.jpeg);
+  background-image:-o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0)), url(img/home.jpeg);
   background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0)), url(img/home.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -112,7 +119,9 @@ input[type=submit]:active {
   width: 100%;
   top: 35%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  -webkit-transform: translate(-50%, 50%);
+      -ms-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
 }
 
 #product-overview div h1 {
@@ -165,7 +174,8 @@ input[type=submit]:active {
 .plan__annotation {
   background: #f99c08;
   padding: .5rem;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+          box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
   border-radius: 8px;
 }
 
@@ -233,8 +243,14 @@ input[type=submit]:active {
 .modal {
   position: fixed;
   opacity: 0;
-  transform: translateY(-4rem);
+  -webkit-transform: translateY(-4rem);
+      -ms-transform: translateY(-4rem);
+          transform: translateY(-4rem);
+  -webkit-transition: opacity 500ms ease-out, -webkit-transform 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: opacity 500ms ease-out, -webkit-transform 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: opacity 500ms ease-out, transform 800ms cubic-bezier(0.77, 0, 0.175, 1);
   transition: opacity 500ms ease-out, transform 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: opacity 500ms ease-out, transform 800ms cubic-bezier(0.77, 0, 0.175, 1), -webkit-transform 800ms cubic-bezier(0.77, 0, 0.175, 1);
   z-index: 200;
   top: 20%;
   left: 30%;
@@ -243,7 +259,8 @@ input[type=submit]:active {
   padding: 1rem;
   border: 1px solid #2a5885;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .modal__title {
@@ -321,7 +338,8 @@ input[type=submit]:active {
 	}
 
 	.plan__recommended {
-		box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+		-webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+		        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
 	}
 
 	.reason {
@@ -336,7 +354,8 @@ input[type=submit]:active {
   }
 
   .btn-full {
-    animation: none;
+    -webkit-animation: none;
+            animation: none;
   }
 }
 
@@ -350,11 +369,24 @@ input[type=submit]:active {
   }
 }
 
-@keyframes animate-btn-full {
+@-webkit-keyframes animate-btn-full {
   0% {
-    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
   }
   100% {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes animate-btn-full {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
